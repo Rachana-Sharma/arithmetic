@@ -14,7 +14,7 @@ public class ControllerAssesment {
 	 CalculateModel calculatemodel = new CalculateModel();
 	 
 	 @Autowired
-	    private ServiceAssesment serviceAssesment;
+	 private ServiceAssesment serviceAssesment;
 	 
 	
 	 @PostMapping(value="/add")
